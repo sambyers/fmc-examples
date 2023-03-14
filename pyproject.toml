@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fmc-examples"
+version = "0.1.0"
+description = ""
+authors = ["Sam Byers <sambyers@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "fmc-examples"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+firerest = "^1.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

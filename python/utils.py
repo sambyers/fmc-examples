@@ -1,6 +1,7 @@
 from pyfgtconflib import Parser
 from config import subint_map
 
+
 def print_subints(subints):
     if len(subints) <= 0:
         print("No subinterfaces.")

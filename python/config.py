@@ -9,9 +9,11 @@ fmc = FMC(
 )
 
 fwname = "ftd1"
-parent_intf = "GigabitEthernet0/0"
 
 subint_map = {
     "internal": "GigabitEthernet0/0",
+    "core2": "GigabitEthernet0/0",
     "external": "GigabitEthernet0/1",
+    "npu2_vlink0": "GigabitEthernet0/1",
+    "npu2_vlink1": "GigabitEthernet0/1"
 }

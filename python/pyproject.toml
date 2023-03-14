@@ -9,6 +9,7 @@ packages = [{include = "fmc-examples"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 firerest = "^1.0.10"
+pyfgtconflib = "^0.0.2"
 
 
 [build-system]

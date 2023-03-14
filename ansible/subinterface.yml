@@ -21,7 +21,7 @@
           domainUUID: '{{ domain[0].uuid }}'
         register_as: physical_interfaces
 
-    - name: Setup SubInterface under GigabitEthernet0/1 with DHCP
+    - name: Setup SubInterface under GigabitEthernet0/0 with DHCP
       cisco.fmcansible.fmc_configuration:
         operation: createMultipleFTDSubInterface
         data:

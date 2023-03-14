@@ -3,8 +3,8 @@ from fireREST import FMC
 
 fmc = FMC(
     hostname="10.1.1.1", 
-    username="test", 
-    password="test", 
+    username="TEST", 
+    password="TEST", 
     domain="Global"
 )
 
